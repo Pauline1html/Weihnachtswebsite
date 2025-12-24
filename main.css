@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Delius");
+
+
+h1.Titel {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: EB Garamond;
+    margin: 0
+}
+
+.Titel {
+    background-color: red;
+    color: white;
+    padding: 20px
+}
+
+p.Titel {
+    font-size: 30px;
+    font-family: Lobster Two;
+    font-style: italic;
+    margin: 0
+}
+
+.Description { 
+    width: 90%;
+    border: 3px;
+    border-color: darkred;
+    border-style: solid;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(143, 193, 143);
+    font-family: Delius;
+    color: darkred;
+}
+
+.Inhaltstitel {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    font-family: EB Garamond;
+}
+
+.Gruß,.Quiz,.Gitarre,.Scratch {
+    width: 300px;
+    margin: 30px;
+    vertical-align: center;
+    display: inline-block;
+    background-color: rgb(252, 170, 77);
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkgreen;
+    padding-bottom: 10px;
+}
+
+.Grußtext, .Quiztext, .Gitarretext, .Scratchtext {
+    text-align: center;
+    font-size: 20px;
+    font-family: Delius;
+    display: block;
+    background-color: rgb(252, 170, 77);
+    color: black;
+    text-decoration: none;
+}
+
+.Grußtext:hover,.Quiztext:hover,.Gitarretext:hover,.Scratchtext:hover {
+    color:darkgreen;
+}
+
+img {
+    width:80%;
+    height: 220px;
+    margin: 20px;
+    vertical-align: center;
+}
+

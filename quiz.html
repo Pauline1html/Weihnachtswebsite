@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+    <title>Weihnachtsquiz</title>
+    <link href="quiz.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="Titel">
+        <h1 class="Titel">Frohe Weihnachten! </h1>
+        <p class="Titel"> "Ho Ho Ho" - der Weihnachtsmann</p>
+    </div>
+
+    <h2 class="titler2">Weihnachtsquiz</h2>
+    <h3 class="untertitler">Teste dein Weihnachtswissen!</h3>
+
+    <div class="quiz">
+        <div class="mann">
+        <p>
+            Wer hat den Weichnachtsmann erfunden?
+        </p><br>
+        <label><input type="radio" name="eins" value="true">Coca Cola</label><br>
+        <label><input type="radio" name="eins" value="false">Das Christkind</label>
+        </div>
+
+        <div class="kind">
+        <p>
+            Wie heißt das Christkind mit Vornamen?
+        </p><br>
+        <label><input type="radio" name="zwei" value="true">Jesus</label><br>
+        <label><input type="radio" name="zwei" value="false">Gudrun</label>
+        </div>
+
+        <div class="spruch">
+        <p>
+            Vervollständige den Spruch: <br>
+            "Früher war mehr..."
+        </p><br>
+        <label><input type="radio" name="drei" value="false" id="antwort">Geschenkpapier</label><br>
+        <label><input type="radio" name="drei" value="true" id="antwort">Lametta</label>
+        </div>
+
+        <div class="lied">
+        <p>
+            Wie heißt das Lied, welches Opa Hoppenstedt auf seinem Plattenspieler hört?
+        </p><br>
+        <label><input type="radio" name="vier" value="false">Erika-Marsch</label><br>
+        <label><input type="radio" name="vier" value="true">Helenen-Marsch</label>
+        </div>
+
+        <div class="frost">
+        <p>
+            Woher stammt Väterchen Frost?
+        </p><br>
+        <label><input type="radio" name="fünf" value="true">Russland</label><br>
+        <label><input type="radio" name="fünf" value="false">Schweden</label>
+        </div>
+
+        <div class="pol">
+        <p>
+            Von welchem Pol kommt der Weihnachtsmann?
+        </p><br>
+        <label><input type="radio" name="sechs" value="false">Polen</label><br>
+        <label><input type="radio" name="sechs" value="true">Nordpol</label>
+        </div>
+
+        <div class="baum">
+        <p>
+            Welchen Baum stellt man sich zur Weihnachtszeit ins Wohnzimmer?
+        </p><br>
+        <label><input type="radio" name="sieben" value="false">Feigenbaum</label><br>
+        <label><input type="radio" name="sieben" value="true">Tanne</label>
+        </div>
+
+        <div class="speise">
+        <p>
+            Was gab es letztes Weihnachten bei uns als Vorspeise?
+        </p><br>
+        <label><input type="radio" name="acht" value="true">Sushi</label><br>
+        <label><input type="radio" name="acht" value="false">Fischsuppe</label>
+        </div>
+
+        <div class="gedicht">
+        <p>
+            Setze die richtigen Worte ein: <br>
+            "Der ... ist öd und leer, die Kinder schauen ... umher, <br>
+            da lässt der Vater einen ..., da fangen alle an zu ..., <br>
+            du siehst, man kann mit ... Dingen, den Kindern eine ... bringen"
+        </p><br>
+        <label><input type="radio" name="neun" value="true">Weihnachtstisch, blöd, krachen, lachen, kleinen, Freude</label><br>
+        <label><input type="radio" name="neun" value="false">Bankaccount, schnöd, laufen, saufen, alkoholischen, Sucht</label>
+        </div>
+
+        <div class="vater">
+        <p>
+            Wer ist der Vater von Jesus?
+        </p><br>
+        <label><input type="radio" name="zehn" value="false">Maria</label><br>
+        <label><input type="radio" name="zehn" value="true">Gott (vielleicht)</label>
+        </div>
+
+        <div class="pauline">
+        <p>
+            Wo ist Pauline gerade?
+        </p><br>
+        <label><input type="radio" name="elf" value="true">Australien</label><br>
+        <label><input type="radio" name="elf" value="false">Polen</label>
+        </div>
+
+        <div class="elias">
+        <p>
+            Wer ist kleiner?
+        </p><br>
+        <label><input type="radio" name="zwölf" value="false">die Weihnachtswichtel</label><br>
+        <label><input type="radio" name="zwölf" value="true">Elias</label>
+        </div>
+
+        <div class="legende">
+        <p>
+            Was macht die Legende an Weihnachten?
+        </p><br>
+        <label><input type="radio" name="dreizehn" value="false">die Legende stirbt</label><br>
+        <label><input type="radio" name="dreizehn"  value="true">die Legende lebt wenn auch die Zeit vergeht</label>
+        </div>
+
+    </div>
+
+    <button class="button" type="button" id="button" onclick="countScore()">Auswertung</button>
+    <p class="result" id="result">...</p>
+
+    <script>
+
+        function countScore() {
+            let score = 0;
+
+            //an Papa: Ja, diesen Teil musste ich von ChatGPT abschreiben
+            const checkedRadios = document.querySelectorAll ("input[type='radio']:checked");
+
+            checkedRadios.forEach(radio => {
+                if (radio.value=== "true") {
+                    score++;
+                }
+            });
+
+            const result = document.getElementById("result");
+
+            const radios = document.querySelectorAll("input[type='radio']");
+
+            radios.forEach(radio=> {
+                const label = radio.parentElement;
+
+                label.classList.remove("right");
+
+                if (radio.value==="true") {
+                    label.classList.add("right")
+                }
+            });
+        //ab hier aber nicht mehr :)
+
+            if (score > 6) {
+                result.textContent = "Du hast über die Hälfte richtig! Dieses Jahr gibt es ausnahmsweise Geschenke für dich :)";
+            } else {
+                result.textContent = "Du hast über die Hälfte falsch! Dieses Jahr gibt es nur die Rute :(";
+            }
+        }
+     </script>
+
+    <a class="jajaja2" href="index.html">Zurück zur Hauptseite</a>
+</body>

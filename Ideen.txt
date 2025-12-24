@@ -1,0 +1,64 @@
+Quiz
+idea: quiz About Christmas; whenever you get something Right you get a score. when you get something wrong it adds to another score. in the end, depending on which score is higher, it says you are a good kid or naughty. 
+
+how: Radio Surveys, score: if true scoreTrue = scoreTrue + 1 (same for false) 
+if value scoreTrue >= value scoreFalse good kid text
+if value scoreTrue < value scoreFalse naughty kid text 
+
+Quizfragen:
+Wer hat den Weihnachtsmann erfunden?
+a) Coca Cola
+b) Das Christkind
+
+Wie heißt das Christkind mit Vornamen?
+a) Jesus
+b) Gudrun
+
+Vervollständige den Spruch:
+"Früher war mehr..."
+a) Geschenkpapier
+b) Lametta
+
+Wie heißt das Lied, welches Opa Hoppenstedt auf seinem Plattenspieler hört?
+a) Erika-Marsch
+b) Helenen-Marsch
+
+Woher stammt Väterchen Frost?
+a) Russland
+b) Schweden
+
+Woher stammt der Weihnachtsmann?
+a) Polen
+b) Nordpol
+
+Welchen Baum stellt man sich an Weihnachten ins Wohnzimmer?
+a) Feigenbaum
+b) Tanne
+
+Was gab es letztes Weihnachten bei uns als Vorspeise?
+a) Fischsuppe
+b) Sushi
+
+Setze die richtigen Worte ein:
+"Der … ist öd und leer die Kinder schauen … umher, da lässt der Vater einen …, da fangen alle an zu …, du siehst man kann mit … Dingen, den Kindern eine … bringen."
+a) Weihnachtstisch, blöd, krachen, lachen, kleinen, Freude
+b) Bankaccount, schnöd, laufen, saufen, alkoholischen, Sucht
+
+Wer ist der Vater von Jesus?
+a) Gott
+b) Maria
+
+Wo ist Pauline gerade?
+a) Australien
+b) Kazachstan
+
+Wer ist kleiner? 
+a) Elias
+oder
+b) die Weihnachtswichtel
+
+Was macht die Legende?
+a) die Legende lebt wenn auch die Zeit vergeht
+b) die Legende stirbt
+
+

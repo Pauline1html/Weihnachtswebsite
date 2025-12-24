@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Delius");
+
+h1.Titel {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: EB Garamond;
+    margin: 0
+}
+
+.Titel {
+    background-color: red;
+    color: white;
+    padding: 20px
+}
+
+p.Titel {
+    font-size: 30px;
+    font-family: Lobster Two;
+    font-style: italic;
+    margin: 0
+}
+.titler3 {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    font-family: EB Garamond;
+}
+
+.jajaja3 {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:20px;
+    text-align: center;
+    display: block;
+}
+
+.jajaja3:hover {
+    color: darkgreen;
+}
+
+video {
+    width: 47%;
+    height: 47%;
+    display: inline;
+    margin: 20px;
+}

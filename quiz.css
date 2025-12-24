@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Delius");
+
+h1.Titel {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: EB Garamond;
+    margin: 0
+}
+
+.Titel {
+    background-color: red;
+    color: white;
+    padding: 20px
+}
+
+p.Titel {
+    font-size: 30px;
+    font-family: Lobster Two;
+    font-style: italic;
+    margin: 0
+}
+
+.titler2 {
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+    color: red;
+    font-family: EB Garamond;
+    margin: 10px;
+}
+
+.untertitler {
+    font-size: 30px;
+    text-align: left;
+    color: red;
+    font-family: Lobster Two;
+    font-style: italic;
+    font-weight: normal;
+    margin: 60px;
+}
+
+.jajaja2 {
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+
+}
+
+.jajaja2:hover {
+    color: darkgreen;
+}
+
+.right {
+    color: green;
+    font-weight: bold;
+}
+
+.mann, .kind, .spruch, .lied, .frost, .pol, .baum, .speise, .gedicht, .vater, .pauline, .elias, .legende {
+   margin: 60px; 
+}
+
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 60px;
+}
+
+.button {
+    margin-left: 60px;
+    background-color: rgb(124, 180, 124);
+}
